@@ -1,0 +1,359 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "jobflow",
+  "evidence": {
+    "core_skills": [
+      "jobflow-getting-started",
+      "jobflow-examples-and-tutorials",
+      "jobflow-build-and-install",
+      "jobflow-license",
+      "jobflow-jobflow-utils",
+      "jobflow-jobflow-settings"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/jobflow-getting-started.md",
+      "skills/.evidence/jobflow-examples-and-tutorials.md",
+      "skills/.evidence/jobflow-build-and-install.md",
+      "skills/.evidence/jobflow-license.md",
+      "skills/.evidence/jobflow-jobflow-utils.md",
+      "skills/.evidence/jobflow-jobflow-settings.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/jobflow-advanced-topics/SKILL.md",
+        "skills/jobflow-advanced-topics/references/doc_map.md",
+        "skills/jobflow-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/jobflow-advanced-topics/SKILL.md",
+        "skills/jobflow-advanced-topics/references/doc_map.md",
+        "skills/jobflow-advanced-topics/references/source_map.md",
+        "skills/jobflow-build-and-install/SKILL.md",
+        "skills/jobflow-changelog/SKILL.md",
+        "skills/jobflow-changelog/references/doc_map.md",
+        "skills/jobflow-changelog/references/source_map.md",
+        "skills/jobflow-contributors/SKILL.md",
+        "skills/jobflow-contributors/references/doc_map.md",
+        "skills/jobflow-contributors/references/source_map.md",
+        "skills/jobflow-developer-guide/SKILL.md",
+        "skills/jobflow-developer-guide/references/doc_map.md",
+        "skills/jobflow-developer-guide/references/source_map.md",
+        "skills/jobflow-examples-and-tutorials/SKILL.md",
+        "skills/jobflow-general/SKILL.md",
+        "skills/jobflow-general/references/doc_map.md",
+        "skills/jobflow-general/references/source_map.md",
+        "skills/jobflow-genindex/SKILL.md",
+        "skills/jobflow-genindex/references/doc_map.md",
+        "skills/jobflow-genindex/references/source_map.md",
+        "skills/jobflow-getting-started/SKILL.md",
+        "skills/jobflow-index/SKILL.md",
+        "skills/jobflow-jobflow-settings/SKILL.md",
+        "skills/jobflow-jobflow-utils/SKILL.md",
+        "skills/jobflow-license/SKILL.md"
+      ],
+      "deleted": [
+        "skills/jobflow-changelog/SKILL.md",
+        "skills/jobflow-changelog/references/doc_map.md",
+        "skills/jobflow-changelog/references/source_map.md",
+        "skills/jobflow-contributors/SKILL.md",
+        "skills/jobflow-contributors/references/doc_map.md",
+        "skills/jobflow-contributors/references/source_map.md",
+        "skills/jobflow-developer-guide/SKILL.md",
+        "skills/jobflow-developer-guide/references/doc_map.md",
+        "skills/jobflow-developer-guide/references/source_map.md",
+        "skills/jobflow-general/SKILL.md",
+        "skills/jobflow-general/references/doc_map.md",
+        "skills/jobflow-general/references/source_map.md",
+        "skills/jobflow-genindex/SKILL.md",
+        "skills/jobflow-genindex/references/doc_map.md",
+        "skills/jobflow-genindex/references/source_map.md"
+      ],
+      "modified": [
+        "skills/jobflow-build-and-install/SKILL.md",
+        "skills/jobflow-examples-and-tutorials/SKILL.md",
+        "skills/jobflow-getting-started/SKILL.md",
+        "skills/jobflow-index/SKILL.md",
+        "skills/jobflow-jobflow-settings/SKILL.md",
+        "skills/jobflow-jobflow-utils/SKILL.md",
+        "skills/jobflow-license/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/jobflow-advanced-topics/SKILL.md",
+        "skills/jobflow-advanced-topics/references/doc_map.md",
+        "skills/jobflow-advanced-topics/references/source_map.md",
+        "skills/jobflow-build-and-install/SKILL.md",
+        "skills/jobflow-build-and-install/references/doc_map.md",
+        "skills/jobflow-build-and-install/references/source_map.md",
+        "skills/jobflow-examples-and-tutorials/SKILL.md",
+        "skills/jobflow-examples-and-tutorials/references/doc_map.md",
+        "skills/jobflow-examples-and-tutorials/references/source_map.md",
+        "skills/jobflow-getting-started/references/doc_map.md",
+        "skills/jobflow-getting-started/references/source_map.md",
+        "skills/jobflow-index/SKILL.md",
+        "skills/jobflow-jobflow-managers/SKILL.md",
+        "skills/jobflow-jobflow-managers/references/doc_map.md",
+        "skills/jobflow-jobflow-managers/references/source_map.md",
+        "skills/jobflow-jobflow-settings/references/doc_map.md",
+        "skills/jobflow-jobflow-settings/references/source_map.md",
+        "skills/jobflow-jobflow-utils/references/doc_map.md",
+        "skills/jobflow-jobflow-utils/references/source_map.md",
+        "skills/jobflow-license/references/doc_map.md",
+        "skills/jobflow-license/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/jobflow-advanced-topics/SKILL.md",
+        "skills/jobflow-advanced-topics/references/doc_map.md",
+        "skills/jobflow-advanced-topics/references/source_map.md",
+        "skills/jobflow-build-and-install/SKILL.md",
+        "skills/jobflow-build-and-install/references/doc_map.md",
+        "skills/jobflow-build-and-install/references/source_map.md",
+        "skills/jobflow-examples-and-tutorials/SKILL.md",
+        "skills/jobflow-examples-and-tutorials/references/doc_map.md",
+        "skills/jobflow-examples-and-tutorials/references/source_map.md",
+        "skills/jobflow-getting-started/references/doc_map.md",
+        "skills/jobflow-getting-started/references/source_map.md",
+        "skills/jobflow-index/SKILL.md",
+        "skills/jobflow-jobflow-managers/SKILL.md",
+        "skills/jobflow-jobflow-managers/references/doc_map.md",
+        "skills/jobflow-jobflow-managers/references/source_map.md",
+        "skills/jobflow-jobflow-settings/references/doc_map.md",
+        "skills/jobflow-jobflow-settings/references/source_map.md",
+        "skills/jobflow-jobflow-utils/references/doc_map.md",
+        "skills/jobflow-jobflow-utils/references/source_map.md",
+        "skills/jobflow-license/references/doc_map.md",
+        "skills/jobflow-license/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs",
+      "paper"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary package metadata comes from pyproject.toml ([project].name = jobflow).",
+      "Tutorial content is split between docs/tutorials notebooks and runnable examples/ scripts.",
+      "Generator script was patched for valid f-string rendering and .ipynb tutorial discovery."
+    ],
+    "package_name": "jobflow",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "docs/tutorials",
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow",
+  "run_id": "compile_20260304T092212179947Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "jobflow-build-and-install",
+      "jobflow-changelog",
+      "jobflow-contributors",
+      "jobflow-developer-guide",
+      "jobflow-examples-and-tutorials",
+      "jobflow-general",
+      "jobflow-genindex",
+      "jobflow-getting-started",
+      "jobflow-index",
+      "jobflow-jobflow-managers",
+      "jobflow-jobflow-settings",
+      "jobflow-jobflow-utils",
+      "jobflow-license"
+    ],
+    "core_skill_ids": [
+      "jobflow-getting-started",
+      "jobflow-examples-and-tutorials",
+      "jobflow-build-and-install",
+      "jobflow-license",
+      "jobflow-jobflow-utils",
+      "jobflow-jobflow-settings"
+    ],
+    "deferred_gaps": [
+      "Generated topics based on one-file API docs may need consolidation into an advanced-topics skill in pass 3.",
+      "Troubleshooting content is distributed across tutorials/tests rather than a dedicated FAQ page.",
+      "Final pass should include explicit coverage audit of generated skill references against src/jobflow modules."
+    ],
+    "goal": "Passes 2/3: generate docs-first jobflow skills, enrich core workflows, then audit coverage and merge low-signal topics.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route requests into install, API, managers, tutorials, and troubleshooting topics",
+          "Enforce docs-first then source/test escalation"
+        ],
+        "reason": "All later skills depend on reliable routing by user intent and evidence source order.",
+        "skill_id": "jobflow-index",
+        "source_hints": [
+          "README.md",
+          "docs/index.rst",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Install + first flow quickstart path",
+          "Core Job/Flow mental model and output references"
+        ],
+        "reason": "Onboarding and first-run questions are the most common and should be answered with minimal friction.",
+        "skill_id": "jobflow-getting-started",
+        "source_hints": [
+          "docs/install.rst",
+          "docs/tutorials/1-quickstart.ipynb",
+          "docs/tutorials/2-introduction.ipynb",
+          "README.md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Base pip install and optional dependency groups",
+          "FireWorks integration install/setup path"
+        ],
+        "reason": "Dependency and environment setup mistakes block nearly all downstream use.",
+        "skill_id": "jobflow-build-and-install",
+        "source_hints": [
+          "docs/install.rst",
+          "docs/install_fireworks.md",
+          "pyproject.toml"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Defining jobs, flows, makers, and references",
+          "Minimal runnable API snippets grounded in examples/tests"
+        ],
+        "reason": "The package value is in composing Python jobs/flows, so API workflows need high-signal guidance.",
+        "skill_id": "jobflow-examples-and-tutorials",
+        "source_hints": [
+          "docs/jobflow.core.rst",
+          "src/jobflow/core",
+          "examples",
+          "tests/core"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Local manager execution workflow",
+          "FireWorks manager flow submission and common setup pitfalls"
+        ],
+        "reason": "Execution backend questions (local vs FireWorks) are operationally high-impact.",
+        "skill_id": "jobflow-jobflow-managers",
+        "source_hints": [
+          "docs/jobflow.managers.rst",
+          "docs/tutorials/8-fireworks.md",
+          "src/jobflow/managers",
+          "tests/managers"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Missing references and validation errors",
+          "Where to cross-check behavior in tests and settings"
+        ],
+        "reason": "Failure triage reduces support loops and improves reproducibility.",
+        "skill_id": "jobflow-license",
+        "source_hints": [
+          "docs/tutorials/9-missing-references.ipynb",
+          "docs/tutorials/9-pydantic-validation.ipynb",
+          "tests",
+          "src/jobflow/settings.py"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "jobflow-license",
+      "jobflow-jobflow-utils",
+      "jobflow-jobflow-settings",
+      "jobflow-jobflow-managers",
+      "jobflow-getting-started",
+      "jobflow-examples-and-tutorials"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-advanced-topics/references/source_map.md: broken path references: __init__.py",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-build-and-install/references/source_map.md: broken path references: settings.py",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-jobflow-managers/references/source_map.md: broken path references: local.py, fireworks.py",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-license/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-jobflow-utils/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-jobflow-settings/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-jobflow-managers/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/jobflow-jobflow/skills/jobflow-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "jobflow-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "jobflow-index",
+      "jobflow-getting-started",
+      "jobflow-build-and-install",
+      "jobflow-examples-and-tutorials",
+      "jobflow-jobflow-managers",
+      "jobflow-license"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 75,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
